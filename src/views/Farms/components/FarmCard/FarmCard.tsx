@@ -117,7 +117,7 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm, removed, cakePrice, bnbPrice,
     : '-'
 
   const lpLabel = farm.lpSymbol
-  const earnLabel = 'EMERALD'
+  const earnLabel = 'AMETHYST'
   const farmAPY = farm.apy && farm.apy.times(new BigNumber(100)).toNumber().toLocaleString(undefined, {
     minimumFractionDigits: 2,
     maximumFractionDigits: 2,
@@ -175,8 +175,8 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm, removed, cakePrice, bnbPrice,
         <Text bold>{earnLabel}</Text>
       </Flex>
       <Flex justifyContent='space-between'>
-        <Text style={{ fontSize: '24px' }}>{TranslateString(10001, 'Deposit Fee')}:</Text>
-        <Text bold style={{ fontSize: '24px' }}>{(farm.depositFeeBP / 100)}%</Text>
+        <Text style={{ fontSize: '16px' }}>{TranslateString(10001, 'Deposit Fee')}:</Text>
+        <Text bold style={{ fontSize: '16px' }}>{(farm.depositFeeBP / 100)}%</Text>
       </Flex>
       <CardActionsContainer farm={farm} ethereum={ethereum} account={account} />
       <Divider />

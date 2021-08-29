@@ -5,7 +5,7 @@ const farms: FarmConfig[] = [
   {
     pid: 0,
     risk: 5,
-    lpSymbol: 'BSNAPPY-ONE LP',
+    lpSymbol: 'Amethyst<>ONE',
     lpAddresses: {
       97: '',
       1666600000: '0x16cf6daec52279cc66a12b2741c0f2652fcdd1ad',
@@ -21,7 +21,7 @@ const farms: FarmConfig[] = [
   {
     pid: 1,
     risk: 5,
-    lpSymbol: 'BSNAPPY-BUSD LP',
+    lpSymbol: 'Amethyst<>BJewel',
     lpAddresses: {
       97: '',
       1666600000: '0x379189df1aaab7a505247f241b003f329c6bbdb6',
@@ -34,10 +34,10 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
   },
-  /* {
+  {
     pid: 1,
     risk: 5,
-    lpSymbol: 'RAIN-WONE LP',
+    lpSymbol: 'Amethyst<>Rain',
     lpAddresses: {
       97: '',
       1666600000: '0x9539c1c15b0eb0d3692c969ae233da344bef2b9c',
@@ -53,7 +53,7 @@ const farms: FarmConfig[] = [
   {
     pid: 4,
     risk: 2,
-    lpSymbol: 'RAIN-VIPER LP',
+    lpSymbol: 'Jewel<>BJewel',
     lpAddresses: {
       97: '',
       1666600000: '0x79118dbed6b6ff060d62d38781c8e79441be88f9',
@@ -69,7 +69,7 @@ const farms: FarmConfig[] = [
   {
     pid: 5,
     risk: 2,
-    lpSymbol: 'RAIN-XYA LP',
+    lpSymbol: 'Amethyst<>XYA',
     lpAddresses: {
       97: '',
       1666600000: '0x4eb51880acec7cda64977d1cc35eddb9100ce1b5',
@@ -81,7 +81,7 @@ const farms: FarmConfig[] = [
     },
     quoteTokenSymbol: QuoteToken.XYA,
     quoteTokenAdresses: contracts.xya,
-  }, */
+  },
   {
     pid: 2,
     risk: 3,
