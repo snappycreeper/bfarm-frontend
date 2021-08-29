@@ -12,7 +12,8 @@ const GlobalStyle = createGlobalStyle`
     font-family: 'SuperScript', sans-serif;
   }
   body {
-    background-color: ${({ theme }) => theme.colors.background};
+    background-image: url('/images/egg/bg.svg');
+    background-repeat: no-repeat;
 
     img {
       height: auto;
