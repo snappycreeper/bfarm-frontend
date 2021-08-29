@@ -1828,9 +1828,9 @@
     eslint-plugin-react "^7.21.5"
     eslint-plugin-react-hooks "^4.0.0"
 
-"@pancakeswap-libs/uikit@snappycreeper/emerald-uikit-master":
-  version "0.0.1"
-  resolved "https://codeload.github.com/snappycreeper/emerald-uikit-master/tar.gz/4e143e5767229b4b333fbf83c0aadfaa676f7226"
+"@pancakeswap-libs/uikit@snappycreeper/bfarm-uikit-master":
+  version "0.10.2"
+  resolved "https://codeload.github.com/snappycreeper/bfarm-uikit-master/tar.gz/e1147fc038623e04b2e63c5423bf189abe1b7323"
   dependencies:
     "@types/lodash" "^4.14.162"
     "@types/styled-system" "^5.1.10"
@@ -6182,16 +6182,6 @@ elliptic@6.5.3, elliptic@^6.4.0, elliptic@^6.5.2, elliptic@^6.5.3:
     inherits "^2.0.1"
     minimalistic-assert "^1.0.0"
     minimalistic-crypto-utils "^1.0.0"
-
-"emerald-libs-uikit@git+https://github.com/snappycreeper/emerald-uikit-master.git":
-  version "0.0.1"
-  resolved "git+https://github.com/snappycreeper/emerald-uikit-master.git#4e143e5767229b4b333fbf83c0aadfaa676f7226"
-  dependencies:
-    "@types/lodash" "^4.14.162"
-    "@types/styled-system" "^5.1.10"
-    lodash "^4.17.20"
-    react-transition-group "^4.4.1"
-    styled-system "^5.1.5"
 
 emittery@^0.7.1:
   version "0.7.2"
