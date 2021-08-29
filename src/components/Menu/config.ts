@@ -46,9 +46,9 @@ const config: MenuEntry[] = [
   href: '/nft',
   },
   {
-    label: 'Audit',
+    label: 'Bridge',
     icon: 'AuditIcon',
-    href: 'https://www.youtube.com/watch?v=d1YBv2mWll0',
+    href: 'https://bridge.harmony.one/erc20',
   },
   {
     label: 'Info',
