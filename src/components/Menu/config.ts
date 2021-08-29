@@ -47,7 +47,7 @@ const config: MenuEntry[] = [
   },
   {
     label: 'Bridge',
-    icon: 'AuditIcon',
+    icon: 'LayerIcon',
     href: 'https://bridge.harmony.one/erc20',
   },
   {
@@ -59,7 +59,7 @@ const config: MenuEntry[] = [
         href: 'https://info.defikingdoms.com/',
       },
      {
-        label: 'CoinGecko (Applied)',
+        label: 'CoinGecko',
         href: '',
       },
     ],
@@ -74,6 +74,10 @@ const config: MenuEntry[] = [
       },
       {
         label: 'Github',
+        href: '',
+      },
+      {
+        label: 'Audits',
         href: '',
       },
       {
