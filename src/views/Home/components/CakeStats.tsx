@@ -31,6 +31,7 @@ const CakeStats = () => {
   const circSupply = totalSupply ? totalSupply.minus(burnedBalance) : new BigNumber(0);
   const cakeSupply = getBalanceNumber(circSupply);
   const marketCap = eggPrice.times(circSupply);
+  const transferTax = '1%';
 
   let eggPerBlock = 1;
   if(farms && farms[0] && farms[0].eggPerBlock){
@@ -41,10 +42,10 @@ const CakeStats = () => {
     <StyledCakeStats>
       <CardBody>
         <Heading size="xl" mb="24px">
-          {TranslateString(505, 'Rain Stats')}
+          {TranslateString(505, 'Emerald Stats')}
         </Heading>
         <Row>
-          <Text fontSize="14px">{TranslateString(10045, 'RAIN Price')}</Text>
+          <Text fontSize="14px">{TranslateString(10045, 'EMERALD Price')}</Text>
           <CardValue fontSize="14px" value={eggPrice.toNumber()} decimals={2} prefix="$" />
         </Row>
         <Row>
@@ -64,8 +65,12 @@ const CakeStats = () => {
           {cakeSupply && <CardValue fontSize="14px" value={cakeSupply} decimals={0} />}
         </Row>
         <Row>
-          <Text fontSize="14px">{TranslateString(541, 'New RAIN/block')}</Text>
+          <Text fontSize="14px">{TranslateString(541, 'New EMERALD/block')}</Text>
           <Text bold fontSize="14px">{eggPerBlock}</Text>
+        </Row>
+        <Row>
+          <Text fontSize="14px">{TranslateString(541, 'Transfer Tax')}</Text>
+          <Text bold fontSize="14px">{transferTax}</Text>
         </Row>
       </CardBody>
     </StyledCakeStats>

@@ -60,7 +60,7 @@ const Home: React.FC = () => {
     <Page>
       <Hero>
         <Heading as="h1" size="xl" mb="24px" color="secondary">
-          {TranslateString(505, 'The Harmony Gardens')}
+          {TranslateString(505, 'The Valleys')}
         </Heading>
         <Text>{TranslateString(507, 'Test')}</Text>
       </Hero>

@@ -5,15 +5,15 @@ const farms: FarmConfig[] = [
   {
     pid: 0,
     risk: 5,
-    lpSymbol: 'BFARM-ONE LP',
+    lpSymbol: 'BSNAPPY-ONE LP',
     lpAddresses: {
       97: '',
-      1666600000: '0x16806c7E42199542f2c5322fbd750d211c95c3C7',
+      1666600000: '0x16cf6daec52279cc66a12b2741c0f2652fcdd1ad',
     },
-    tokenSymbol: 'BFARM',
+    tokenSymbol: 'Bsnappy',
     tokenAddresses: {
       97: '',
-      1666600000: '0xd009b07B4a65CC769379875Edc279961D710362d',
+      1666600000: '0x0AD870c482Aa6f0583dB6951bB50a652985Fd17B',
     },
     quoteTokenSymbol: QuoteToken.WONE,
     quoteTokenAdresses: contracts.wbnb,
@@ -21,15 +21,15 @@ const farms: FarmConfig[] = [
   {
     pid: 1,
     risk: 5,
-    lpSymbol: 'BFARM-BUSD LP',
+    lpSymbol: 'BSNAPPY-BUSD LP',
     lpAddresses: {
       97: '',
-      1666600000: '0xc22dc9f3c00319d457a5ce31f6629a1b18df2218',
+      1666600000: '0x379189df1aaab7a505247f241b003f329c6bbdb6',
     },
-    tokenSymbol: 'BFARM',
+    tokenSymbol: 'Bsnappy',
     tokenAddresses: {
       97: '',
-      1666600000: '0xd009b07B4a65CC769379875Edc279961D710362d',
+      1666600000: '0x0AD870c482Aa6f0583dB6951bB50a652985Fd17B',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
