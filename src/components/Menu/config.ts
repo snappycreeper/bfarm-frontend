@@ -12,11 +12,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Minerals Exchange ',
-        href: 'https://info.defikingdoms.com/',
+        href: 'https://game.defikingdoms.com/#/marketplace',
       },
       {
         label: 'Manage Liquidity',
-        href: 'https://info.defikingdoms.com/',
+        href: 'https://game.defikingdoms.com/#/add/ONE',
       },
     ],
   },
@@ -46,7 +46,7 @@ const config: MenuEntry[] = [
   href: '/nft',
   },
   {
-    label: 'Audits',
+    label: 'Audit',
     icon: 'AuditIcon',
     href: 'https://www.youtube.com/watch?v=d1YBv2mWll0',
   },
