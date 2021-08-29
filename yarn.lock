@@ -6193,17 +6193,6 @@ elliptic@6.5.3, elliptic@^6.4.0, elliptic@^6.5.2, elliptic@^6.5.3:
     react-transition-group "^4.4.1"
     styled-system "^5.1.5"
 
-"emerald-libs-uikit@https://github.com/snappycreeper/emerald-uikit-master.git":
-  version "0.0.1"
-  uid "4e143e5767229b4b333fbf83c0aadfaa676f7226"
-  resolved "https://github.com/snappycreeper/emerald-uikit-master.git#4e143e5767229b4b333fbf83c0aadfaa676f7226"
-  dependencies:
-    "@types/lodash" "^4.14.162"
-    "@types/styled-system" "^5.1.10"
-    lodash "^4.17.20"
-    react-transition-group "^4.4.1"
-    styled-system "^5.1.5"
-
 emittery@^0.7.1:
   version "0.7.2"
   resolved "https://registry.yarnpkg.com/emittery/-/emittery-0.7.2.tgz#25595908e13af0f5674ab419396e2fb394cdfa82"
