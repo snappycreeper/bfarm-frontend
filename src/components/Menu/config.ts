@@ -2,31 +2,31 @@ import { MenuEntry } from '@pancakeswap-libs/uikit'
 
 const config: MenuEntry[] = [
   {
-    label: 'Home',
+    label: 'World Map',
     icon: 'HomeIcon',
     href: '/',
   },
   {
-    label: 'Trade',
+    label: 'Marketplace',
     icon: 'TradeIcon',
     items: [
       {
-        label: 'Exchange',
-        href: 'https://viper.exchange/#/swap?outputCurrency=0xA95f77Abc1faFAFDD16d18b8700F670bF8BC990c',
+        label: 'Minerals Exchange ',
+        href: 'https://info.defikingdoms.com/',
       },
       {
-        label: 'Liquidity',
-        href: 'https://viper.exchange/#/pool',
+        label: 'Manage Liquidity',
+        href: 'https://info.defikingdoms.com/',
       },
     ],
   },
   {
-    label: 'The Gardens',
+    label: 'Mineral Mining',
     icon: 'FarmIcon',
     href: '/farms',
   },
   {
-    label: 'Thunder Pools',
+    label: 'Gem Hunting',
     icon: 'PoolIcon',
     href: '/pools',
   },
@@ -40,31 +40,28 @@ const config: MenuEntry[] = [
   //   icon: 'TicketIcon',
   //   href: '/lottery',
   // },
-  // {
-  //   label: 'NFT',
-  //   icon: 'NftIcon',
-  //   href: '/nft',
-  // },
+  {
+  label: 'NFTs',
+  icon: 'NftIcon',
+  href: '/nft',
+  },
+  {
+    label: 'Audits',
+    icon: 'AuditIcon',
+    href: 'https://www.youtube.com/watch?v=d1YBv2mWll0',
+  },
   {
     label: 'Info',
     icon: 'InfoIcon',
     items: [
       {
         label: 'Chart',
-        href: 'https://info.viper.exchange/token/0xa95f77abc1fafafdd16d18b8700f670bf8bc990c',
+        href: 'https://info.defikingdoms.com/',
       },
-      /* {
-        label: 'CoinGecko',
-        href: 'https://www.coingecko.com/en/coins/goose-finance',
+     {
+        label: 'CoinGecko (Applied)',
+        href: '',
       },
-      {
-        label: 'CoinMarketCap',
-        href: 'https://coinmarketcap.com/currencies/goose-finance/',
-      },
-      {
-        label: 'AstroTools',
-        href: 'https://app.astrotools.io/pancake-pair-explorer/0x19e7cbecdd23a16dfa5573df54d98f7caae03019',
-      }, */
     ],
   },
   {
@@ -72,24 +69,19 @@ const config: MenuEntry[] = [
     icon: 'MoreIcon',
     items: [
       {
+        label: 'Docs',
+        href: '',
+      },
+      {
         label: 'Github',
-        href: 'https://github.com/snappycreeper/rain-uikit',
+        href: '',
       },
       {
         label: 'Discord',
-        href: 'https://discord.gg/DTdeeZ4zKk',
-      },
-      {
-        label: 'Blog',
-        href: 'https://rainfinance.medium.com/',
+        href: 'https://discord.gg/dR3HH76hfc',
       },
     ],
-  },
-  /* {
-    label: 'Partnerships/IFO',
-    icon: 'GooseIcon',
-    href: 'https://docs.google.com/forms/d/e/1FAIpQLSe7ycrw8Dq4C5Vjc9WNlRtTxEhFDB1Ny6jlAByZ2Y6qBo7SKg/viewform?usp=sf_link',
-  },
+  }, /*
   {
     label: 'Audit by Hacken',
     icon: 'AuditIcon',
