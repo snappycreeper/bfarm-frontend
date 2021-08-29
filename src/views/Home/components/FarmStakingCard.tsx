@@ -68,8 +68,8 @@ const FarmedStakingCard = () => {
   return (
     <StyledFarmStakingCard>
       <CardBody>
-        <Heading size="xl" mb="24px">
-          {TranslateString(542, 'Mining & Hunting')}
+        <Heading size="xl" mb="10px">
+          {TranslateString(5490, 'Mining & Hunting')}
         </Heading>
         <CardImage src="/images/egg/test.png" alt="Logo" width={80} height={80} />
         <Block>
@@ -92,7 +92,7 @@ const FarmedStakingCard = () => {
             >
               {pendingTx
                 ? TranslateString(548, 'Collecting Amethyst')
-                : TranslateString(999, `Collect Gems (${balancesWithValue.length})`)}
+                : TranslateString(999, `Collect Amethyst (${balancesWithValue.length})`)}
             </Button>
           ) : (
             <UnlockButton fullWidth />
