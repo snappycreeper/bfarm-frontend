@@ -94,13 +94,13 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
       <Heading as="h1" size="lg" color="primary" mb="50px" style={{ textAlign: 'center' }}>
         {
           tokenMode ?
-            TranslateString(10345, 'Stake tokens to earn EMERALD')
+            TranslateString(10345, 'Start mining Amethyst with your DefiKingdoms LP!')
             :
-          TranslateString(321, 'Stake LP tokens to earn EMERALD')
+          TranslateString(321, 'Start mining Amethyst with your DefiKingdoms LP!')
         }
       </Heading>
-      <Heading as="h2" color="secondary" mb="50px" style={{ textAlign: 'center' }}>
-        {TranslateString(10070, 'Deposit Fee will be used to buyback EMERALD')}
+      <Heading as="h2" color="secondary" mb="10px" style={{ textAlign: 'center' }}>
+        {TranslateString(10070, '')}
       </Heading>
       <FarmTabButtons stakedOnly={stakedOnly} setStakedOnly={setStakedOnly}/>
       <div>
