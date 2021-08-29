@@ -8,12 +8,12 @@ const farms: FarmConfig[] = [
     lpSymbol: 'Amethyst<>ONE',
     lpAddresses: {
       97: '',
-      1666600000: '0x16cf6daec52279cc66a12b2741c0f2652fcdd1ad',
+      1666600000: '0x3968acba1dfddfa61847b8832cf48a89aa3c05c9',
     },
     tokenSymbol: 'Bsnappy',
     tokenAddresses: {
       97: '',
-      1666600000: '0x0AD870c482Aa6f0583dB6951bB50a652985Fd17B',
+      1666600000: '0x1ce753cD86C1881411C281bfab533D54086D9377',
     },
     quoteTokenSymbol: QuoteToken.WONE,
     quoteTokenAdresses: contracts.wbnb,
@@ -24,12 +24,12 @@ const farms: FarmConfig[] = [
     lpSymbol: 'Amethyst<>BJewel',
     lpAddresses: {
       97: '',
-      1666600000: '0x379189df1aaab7a505247f241b003f329c6bbdb6',
+      1666600000: '0x59f3d1da03c881cfb24e84a21e2c6f2fe6c26cc1',
     },
     tokenSymbol: 'Bsnappy',
     tokenAddresses: {
       97: '',
-      1666600000: '0x0AD870c482Aa6f0583dB6951bB50a652985Fd17B',
+      1666600000: '0x1ce753cD86C1881411C281bfab533D54086D9377',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
