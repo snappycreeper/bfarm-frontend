@@ -42,7 +42,7 @@ const Cards = styled(BaseLayout)`
 
   ${({ theme }) => theme.mediaQueries.sm} {
     & > div {
-      grid-column: span 8;
+      grid-column: span 6;
     }
   }
 
@@ -62,13 +62,13 @@ const Home: React.FC = () => {
         <Heading as="h1" size="xl" mb="24px" color="secondary">
           {TranslateString(505, 'The Valleys')}
         </Heading>
-        <Text>{TranslateString(507, 'Hunt and mine your favorite gems in the Kingdom!')}</Text>
+        <Text>{TranslateString(507, 'Hunt and mine your favorite gems in the Kingdom')}</Text>
       </Hero>
       <div>
         <Cards>
           <FarmStakingCard />
+          <CakeStats/>
           <TwitterCard/>
-          <CakeStats />
           <TotalValueLockedCard />
         </Cards>
       </div>

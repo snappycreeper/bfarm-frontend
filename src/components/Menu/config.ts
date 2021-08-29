@@ -41,7 +41,7 @@ const config: MenuEntry[] = [
   //   href: '/lottery',
   // },
   {
-  label: 'NFTs',
+  label: 'BabyHeroes (NFTs)',
   icon: 'NftIcon',
   href: '/nft',
   },
