@@ -21,7 +21,7 @@ const config: MenuEntry[] = [
     ],
   },
   {
-    label: 'Farms',
+    label: 'The Gardens',
     icon: 'FarmIcon',
     href: '/farms',
   },
