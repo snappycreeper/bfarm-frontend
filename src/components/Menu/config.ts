@@ -66,7 +66,7 @@ const config: MenuEntry[] = [
   },
   {
     label: 'More',
-    icon: 'MoreIcon',
+    icon: 'RoadmapIcon',
     items: [
       {
         label: 'Docs',

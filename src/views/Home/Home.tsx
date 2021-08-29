@@ -59,10 +59,10 @@ const Home: React.FC = () => {
   return (
     <Page>
       <Hero>
-        <Heading as="h1" size="xl" mb="24px" color="primary">
+        <Heading as="h1" size="xl" mb="24px" color="secondary">
           {TranslateString(505, 'The Valleys')}
         </Heading>
-        <Text>{TranslateString(507, 'Hunt your favorite gems in the Kingdom!')}</Text>
+        <Text>{TranslateString(507, 'Hunt and mine your favorite gems in the Kingdom!')}</Text>
       </Hero>
       <div>
         <Cards>

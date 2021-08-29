@@ -27,7 +27,7 @@ const Block = styled.div`
 `
 
 const CardImage = styled.img`
-  margin-bottom: 16px;
+  margin-bottom: 1px;
 `
 
 const Label = styled.div`
@@ -71,7 +71,7 @@ const FarmedStakingCard = () => {
         <Heading size="xl" mb="24px">
           {TranslateString(542, 'Mining & Hunting')}
         </Heading>
-        <CardImage src="/images/egg/2.png" alt="Logo" width={64} height={64} />
+        <CardImage src="/images/egg/test.png" alt="Logo" width={80} height={80} />
         <Block>
           <Label>{TranslateString(503, 'Amethyst to claim')}</Label>
           <CakeHarvestBalance earningsSum={earningsSum}/>
