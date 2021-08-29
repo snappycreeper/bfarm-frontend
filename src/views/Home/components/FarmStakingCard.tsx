@@ -78,8 +78,8 @@ const FarmedStakingCard = () => {
           <Label>~${(eggPrice * earningsSum).toFixed(2)}</Label>
         </Block>
         <Block>
-          <Label>{TranslateString(501, 'Amethyst in your bag')}</Label>
-          <CakeWalletBalance cakeBalance={cakeBalance} />
+          <Label>{TranslateString(501, 'Amethyst in your wallet')}</Label>
+          <CakeWalletBalance cakeBalance={cakeBalance}/>
           <Label>~${(eggPrice * cakeBalance).toFixed(2)}</Label>
         </Block>
         <Actions>
