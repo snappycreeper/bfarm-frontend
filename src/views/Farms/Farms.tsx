@@ -91,16 +91,16 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
 
   return (
     <Page>
-      <Heading as="h1" size="lg" color="primary" mb="50px" style={{ textAlign: 'center' }}>
+      <Heading as="h1" size="lg" color="primary" mb="20px" style={{ textAlign: 'center' }}>
         {
           tokenMode ?
-            TranslateString(10345, 'Start mining Amethyst with your DefiKingdoms LP!')
+            TranslateString(10345, 'Mineral Mining')
             :
-          TranslateString(321, 'Start mining Amethyst with your DefiKingdoms LP!')
+          TranslateString(321, 'Mineral Mining')
         }
       </Heading>
-      <Heading as="h2" color="secondary" mb="10px" style={{ textAlign: 'center' }}>
-        {TranslateString(10070, '')}
+      <Heading as="h2" color="secondary" mb="50px" style={{ textAlign: 'center' }}>
+        {TranslateString(10070, 'Mine with Defi Kingdoms LP and earn Amethyst')}
       </Heading>
       <FarmTabButtons stakedOnly={stakedOnly} setStakedOnly={setStakedOnly}/>
       <div>
@@ -114,7 +114,7 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
           </Route>
         </FlexLayout>
       </div>
-      <Image src="/images/egg/logoentire.png" alt="illustration" width={400} height={42} responsive/>
+      <Image src="/images/egg/3.png" alt="" width={400} height={42} responsive/>
     </Page>
   )
 }

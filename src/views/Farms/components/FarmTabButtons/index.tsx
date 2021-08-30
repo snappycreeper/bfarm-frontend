@@ -10,10 +10,6 @@ const FarmTabButtons = ({ stakedOnly, setStakedOnly }) => {
 
   return (
     <Wrapper>
-      <ToggleWrapper>
-        <Toggle checked={stakedOnly} onChange={() => setStakedOnly(!stakedOnly)} />
-        <Text> {TranslateString(699, 'Staked only')}</Text>
-      </ToggleWrapper>
       <ButtonMenu activeIndex={isExact ? 0 : 1} size="sm" variant="subtle">
         <ButtonMenuItem as={Link} to={`${url}`}>
           {TranslateString(698, 'Active')}
@@ -22,6 +18,10 @@ const FarmTabButtons = ({ stakedOnly, setStakedOnly }) => {
           {TranslateString(700, 'Inactive')}
         </ButtonMenuItem>
       </ButtonMenu>
+      <ToggleWrapper>
+        <Toggle checked={stakedOnly} onChange={() => setStakedOnly(!stakedOnly)} />
+        <Text> {TranslateString(699, 'Staked only')}</Text>
+      </ToggleWrapper>
     </Wrapper>
   )
 }
@@ -33,13 +33,14 @@ const Wrapper = styled.div`
   justify-content: center;
   align-items: center;
   margin-bottom: 20px;
+  margin-right: 0px;
 `
 
 const ToggleWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 500px;
+  margin-left: 20px;
 
   ${Text} {
     margin-left: 8px;
