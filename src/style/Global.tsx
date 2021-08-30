@@ -9,7 +9,7 @@ declare module 'styled-components' {
 
 const GlobalStyle = createGlobalStyle`
   * {
-    font-family: 'SuperScript', sans-serif;
+    font-family: 'kanit', sans-serif;
   }
   body {
     background-image: url('/images/egg/bg.svg');

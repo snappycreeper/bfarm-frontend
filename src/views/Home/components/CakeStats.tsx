@@ -72,6 +72,18 @@ const CakeStats = () => {
           <Text fontSize="14px">{TranslateString(541, 'Transfer Tax')}</Text>
           <Text bold fontSize="14px">{transferTax}</Text>
         </Row>
+        <Row>
+          <Text fontSize="14px">{TranslateString(541, '')}</Text>
+          <Text bold fontSize="14px">{}</Text>
+        </Row>
+        <Row>
+          <Text bold fontSize="14px">{TranslateString(541, 'Masterchef:')}</Text>
+          <Text fontSize="14px">{TranslateString(541, 'TBA')}</Text>
+        </Row>
+        <Row>
+          <Text bold fontSize="14px">{TranslateString(541, 'Token:')}</Text>
+          <Text fontSize="14px">{TranslateString(541, 'TBA')}</Text>
+        </Row>
       </CardBody>
     </StyledCakeStats>
   )
