@@ -25,32 +25,45 @@ const config: MenuEntry[] = [
     icon: 'FarmIcon',
     href: '/farms',
   },
+
+    {
+    label: 'Bridged Pools',
+    icon: 'LayerIcon',
+    items: [
+      {
+        label: 'Pools',
+        href: '',
+      },
+     {
+        label: 'Bridge Assets',
+        href: 'https://bridge.harmony.one/',
+      },
+    ],
+  },
+    
   {
     label: 'Gem Hunting',
     icon: 'PoolIcon',
     href: '/pools',
   },
 
+
   // {
   //   label: 'Pools',
   //   icon: 'PoolIcon',
   //   href: '/pools',
   // },
-  // {
-  //   label: 'Lottery',
-  //   icon: 'TicketIcon',
-  //   href: '/lottery',
-  // },
+{
+  label: 'Lottery',
+  icon: 'TicketIcon',
+  href: '/lottery',
+},
   {
   label: 'BabyHeroes (NFTs)',
   icon: 'NftIcon',
-  href: '/nft',
+  href: 'https://www.babyjewel.xyz/nfts',
   },
-  {
-    label: 'Bridge',
-    icon: 'LayerIcon',
-    href: 'https://bridge.harmony.one/erc20',
-  },
+
   {
     label: 'VFAT',
     icon: 'BondsIcon',
@@ -65,7 +78,7 @@ const config: MenuEntry[] = [
         href: 'https://info.defikingdoms.com/',
       },
      {
-        label: 'CoinGecko',
+        label: 'CoinGecko (Applied)',
         href: '',
       },
     ],
@@ -83,7 +96,7 @@ const config: MenuEntry[] = [
         href: '',
       },
       {
-        label: 'Audits',
+        label: 'Audits (Soon)',
         href: '',
       },
       {

@@ -59,7 +59,7 @@ const CardActions: React.FC<FarmCardActionsProps> = ({ farm, ethereum, account }
       <StakeAction stakedBalance={stakedBalance} tokenBalance={tokenBalance} tokenName={lpName} pid={pid} depositFeeBP={depositFeeBP} />
     ) : (
       <Button mt="8px" fullWidth disabled={requestedApproval} onClick={handleApprove}>
-        {TranslateString(999, 'Start Mining')}
+        {TranslateString(999, 'Unlock Wallet')}
       </Button>
     )
   }
@@ -67,24 +67,24 @@ const CardActions: React.FC<FarmCardActionsProps> = ({ farm, ethereum, account }
   return (
     <Action>
       <Flex>
-        <Text bold textTransform="uppercase" color="secondary" fontSize="12px" pr="3px">
+        <Text bold textTransform="uppercase" color="textSubtle" fontSize="12px" pr="px">
           {/* TODO: Is there a way to get a dynamic value here from useFarmFromSymbol? */}
-          Amethyst
+          Amethyst 
         </Text>
         <Text bold textTransform="uppercase" color="textSubtle" fontSize="12px">
-          {TranslateString(999, 'Mined')}
+          {TranslateString(999, '-Earned')}
         </Text>
       </Flex>
       <HarvestAction earnings={earnings} pid={pid} />
       <Flex>
-        <Text bold textTransform="uppercase" color="secondary" fontSize="12px" pr="3px">
+        <Text bold textTransform="uppercase" color="textSubtle" fontSize="12px" pr="3px">
           {lpName}
         </Text>
         <Text bold textTransform="uppercase" color="textSubtle" fontSize="12px">
           {TranslateString(999, 'Staked')}
         </Text>
       </Flex>
-      {!account ? <UnlockButton mt="8px" fullWidth /> : renderApprovalOrStakeButton()}
+      {!account ? <UnlockButton mt="20px" fullWidth /> : renderApprovalOrStakeButton()}
     </Action>
   )
 }

@@ -91,16 +91,16 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
 
   return (
     <Page>
-      <Heading as="h1" size="lg" color="primary" mb="20px" style={{ textAlign: 'center' }}>
+      <Heading as="h1" size="xl" color="white" mb="20px" style={{ textAlign: 'center' }}>
         {
           tokenMode ?
-            TranslateString(10345, 'Mineral Mining')
+            TranslateString(10345, '')
             :
-          TranslateString(321, 'Mineral Mining')
+          TranslateString(321, '')
         }
       </Heading>
-      <Heading as="h2" color="secondary" mb="50px" style={{ textAlign: 'center' }}>
-        {TranslateString(10070, 'Mine with Defi Kingdoms LP and earn Amethyst')}
+      <Heading as="h2" color="white" mb="50px" style={{ textAlign: 'center' }}>
+        {TranslateString(10070, '')}
       </Heading>
       <FarmTabButtons stakedOnly={stakedOnly} setStakedOnly={setStakedOnly}/>
       <div>

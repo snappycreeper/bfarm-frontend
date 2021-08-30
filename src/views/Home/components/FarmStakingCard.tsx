@@ -1,6 +1,6 @@
 import React, { useState, useCallback } from 'react'
 import styled from 'styled-components'
-import { Heading, Card, CardBody, Button } from '@pancakeswap-libs/uikit'
+import { Heading, Card, CardBody, Button, Flex } from '@pancakeswap-libs/uikit'
 import { useWallet } from '@binance-chain/bsc-use-wallet'
 import BigNumber from 'bignumber.js'
 import useI18n from 'hooks/useI18n'
@@ -14,6 +14,7 @@ import useTokenBalance from '../../../hooks/useTokenBalance'
 import { getCakeAddress } from '../../../utils/addressHelpers'
 import useAllEarnings from '../../../hooks/useAllEarnings'
 import { getBalanceNumber } from '../../../utils/formatBalance'
+
 
 const StyledFarmStakingCard = styled(Card)`
   background-image: url('/images/egg/2a.png');
@@ -68,7 +69,8 @@ const FarmedStakingCard = () => {
   return (
     <StyledFarmStakingCard>
       <CardBody>
-        <Heading size="xl" mb="10px">
+       
+        <Heading size="xl" mb="10px" color="green">
           {TranslateString(5490, 'Mining & Hunting')}
         </Heading>
         <CardImage src="/images/egg/test.png" alt="Logo" width={80} height={80} />

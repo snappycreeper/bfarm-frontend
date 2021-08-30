@@ -53,7 +53,7 @@ const ApyCalculatorModal: React.FC<ApyCalculatorModalProps> = ({
   const cakeEarnedPerThousand365D = calculateCakeEarnedPerThousandDollars({ numberOfDays: 365, farmApy, cakePrice })
 
   return (
-    <Modal title="ROI" onDismiss={onDismiss}>
+    <Modal title="APY Calculator" onDismiss={onDismiss}>
       <Grid>
         <GridItem>
           <Text fontSize="14px" bold color="textSubtle" textTransform="uppercase" mb="20px">
@@ -126,7 +126,7 @@ const ApyCalculatorModal: React.FC<ApyCalculatorModalProps> = ({
         )}
       </Description>
       <Flex justifyContent="center">
-        <LinkExternal href={`https://exchange.pancakeswap.finance/#/add/${liquidityUrlPathParts}`}>
+        <LinkExternal href={`https://app.defikingdoms.com/#/add/${liquidityUrlPathParts}`}>
           {TranslateString(999, 'Get')} {lpLabel}
         </LinkExternal>
       </Flex>

@@ -8,6 +8,7 @@ import LotteryCard from './components/LotteryCard'
 import CakeStats from './components/CakeStats'
 import TotalValueLockedCard from './components/TotalValueLockedCard'
 import TwitterCard from './components/TwitterCard'
+// import TotalPrizesCard from 'views/Lottery/components/TotalPrizesCard'
 
 const Hero = styled.div`
   align-items: center;
@@ -56,13 +57,20 @@ const Cards = styled(BaseLayout)`
 const Home: React.FC = () => {
   const TranslateString = useI18n()
 
+
+  
   return (
+
     <Page>
       <Hero>
-        <Heading as="h1" size="xl" mb="24px" color="secondary">
+        <Heading 
+        bold as="h1" 
+        size="xxl" 
+        mb="10px" 
+        color="white">
           {TranslateString(505, 'The Valleys')}
         </Heading>
-        <Text>{TranslateString(507, 'Hunt and mine your favorite gems in the Kingdom')}</Text>
+        <Text>{TranslateString(507, '')}</Text>
       </Hero>
       <div>
         <Cards>

@@ -50,29 +50,33 @@ const DetailsSection: React.FC<ExpandableSectionProps> = ({
 
   return (
     <Wrapper>
-      <Flex justifyContent="space-between">
-        <Text>{TranslateString(316, 'Stake')}:</Text>
+            {!removed && (
+        <Flex justifyContent="space-between">
+          <Text>{TranslateString(23, 'Total Liquidity')}:</Text>
+          <Text>{totalValueFormated} </Text>
+        </Flex>
+      )}
+
+      
+      <Flex justifyContent="flex-start">
+        <StyledLinkExternal href={bscScanAddress} bold={false}>
+          {TranslateString(351, 'View Contract')}
+        </StyledLinkExternal>
+      </Flex>
+
+      <Flex justifyContent="left">
         <StyledLinkExternal href={
           isTokenOnly ?
-            `https://viper.exchange/#/swap${tokenAddresses[process.env.REACT_APP_CHAIN_ID]}`
+            `https://app.defikingdoms.com/#/marketplace${tokenAddresses[process.env.REACT_APP_CHAIN_ID]}`
             :
-          `https://viper.exchange/#/add/${liquidityUrlPathParts}`
+          `https://app.defikingdoms.com/#/add${liquidityUrlPathParts}`
         }>
           {lpLabel}
         </StyledLinkExternal>
       </Flex>
-      {!removed && (
-        <Flex justifyContent="space-between">
-          <Text>{TranslateString(23, 'Total Liquidity')}:</Text>
-          <Text>{totalValueFormated}</Text>
-        </Flex>
-      )}
-      <Flex justifyContent="flex-start">
-        <Link external href={bscScanAddress} bold={false}>
-          {TranslateString(356, 'View on Explorer')}
-        </Link>
-      </Flex>
     </Wrapper>
+
+    
   )
 }
 

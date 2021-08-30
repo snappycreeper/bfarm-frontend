@@ -117,7 +117,7 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm, removed, cakePrice, bnbPrice,
     : '-'
 
   const lpLabel = farm.lpSymbol
-  const earnLabel = 'AMETHYST'
+  const earnLabel = 'Amethyst'
   const farmAPY = farm.apy && farm.apy.times(new BigNumber(100)).toNumber().toLocaleString(undefined, {
     minimumFractionDigits: 2,
     maximumFractionDigits: 2,
@@ -127,7 +127,7 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm, removed, cakePrice, bnbPrice,
 
   return (
     <FCard>
-      {farm.tokenSymbol === 'Amethyst' && <StyledCardAccent />}
+      {farm.tokenSymbol === 'Amethyst' && <StyledCardAccent/>}
       <CardHeading
         lpLabel={lpLabel}
         multiplier={farm.multiplier}
@@ -138,7 +138,7 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm, removed, cakePrice, bnbPrice,
       />
       {!removed && (
         <Flex justifyContent='space-between' alignItems='center'>
-          <Text>{TranslateString(352, 'APR')}:</Text>
+          <Text>{TranslateString(357, 'APR')}</Text>
           <Text bold style={{ display: 'flex', alignItems: 'center' }}>
             {farm.apy ? (
               <>
@@ -158,21 +158,25 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm, removed, cakePrice, bnbPrice,
           </Text>
         </Flex>
       )}
-
+      
       <Flex justifyContent='space-between'>
-        <Text>{TranslateString(318, 'Mine')}:</Text>
-        <Text bold>{earnLabel}</Text>
+        <Text mb="3px">
+          {TranslateString(318, 'Earn')}</Text>
+        <Text bold fontSize="14">{earnLabel}</Text>
       </Flex>
       <Flex justifyContent='space-between'>
-        <Text style={{ fontSize: '16px' }}>{TranslateString(10001, 'Deposit Fee')}:</Text>
+        <Text mb="5px"style={{ fontSize: '16px' }}>{TranslateString(10001, 'Deposit Fee')}</Text>
         <Text bold style={{ fontSize: '16px' }}>{(farm.depositFeeBP / 100)}%</Text>
       </Flex>
+      
       <CardActionsContainer farm={farm} ethereum={ethereum} account={account} />
       <Divider />
       <ExpandableSectionButton
         onClick={() => setShowExpandableSection(!showExpandableSection)}
         expanded={showExpandableSection}
       />
+      
+
     
       <ExpandingWrapper expanded={showExpandableSection}>
         <DetailsSection
@@ -193,6 +197,8 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm, removed, cakePrice, bnbPrice,
       </ExpandingWrapper>
     </FCard>
   )
-}
+  }
+
+
 
 export default FarmCard
