@@ -1828,6 +1828,16 @@
     eslint-plugin-react "^7.21.5"
     eslint-plugin-react-hooks "^4.0.0"
 
+"@pancakeswap-libs/uikit@https://github.com/snappycreeper/bfarm-uikit-master":
+  version "0.10.2"
+  resolved "https://github.com/snappycreeper/bfarm-uikit-master#6bf7cc90015e124ed60d0ec6bfcdd9b56ab1af2e"
+  dependencies:
+    "@types/lodash" "^4.14.162"
+    "@types/styled-system" "^5.1.10"
+    lodash "^4.17.20"
+    react-transition-group "^4.4.1"
+    styled-system "^5.1.5"
+
 "@pancakeswap-libs/uikit@snappycreeper/bfarm-uikit-master":
   version "0.10.2"
   resolved "https://codeload.github.com/snappycreeper/bfarm-uikit-master/tar.gz/e1147fc038623e04b2e63c5423bf189abe1b7323"
