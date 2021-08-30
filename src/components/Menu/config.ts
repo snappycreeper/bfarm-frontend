@@ -21,7 +21,7 @@ const config: MenuEntry[] = [
     ],
   },
   {
-    label: 'Mineral Mining',
+    label: 'The Valleys',
     icon: 'FarmIcon',
     href: '/farms',
   },
@@ -30,6 +30,7 @@ const config: MenuEntry[] = [
     icon: 'PoolIcon',
     href: '/pools',
   },
+
   // {
   //   label: 'Pools',
   //   icon: 'PoolIcon',
@@ -56,7 +57,7 @@ const config: MenuEntry[] = [
     href: 'https://vfat.tools/harmony/',
   },
   {
-    label: 'Info',
+    label: 'Charts',
     icon: 'InfoIcon',
     items: [
       {
