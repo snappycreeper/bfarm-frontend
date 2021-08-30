@@ -70,7 +70,6 @@ const Home: React.FC = () => {
           <CakeStats/>
           <TwitterCard/>
           <TotalValueLockedCard/>
-
         </Cards>
       </div>
     </Page>
