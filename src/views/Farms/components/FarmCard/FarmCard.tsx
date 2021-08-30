@@ -158,18 +158,7 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm, removed, cakePrice, bnbPrice,
           </Text>
         </Flex>
       )}
-      <Flex justifyContent='flex-end' alignItems='center'>
-            <Button
-            as='a'
-            size='sm'
-            href="https://vfat.tools/harmony/"
-            variant='text'
-            marginBottom='1px'
-            external
-          >
-            {TranslateString(999, 'VFAT')}
-          </Button>
-      </Flex>
+
       <Flex justifyContent='space-between'>
         <Text>{TranslateString(318, 'Mine')}:</Text>
         <Text bold>{earnLabel}</Text>
@@ -184,6 +173,7 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm, removed, cakePrice, bnbPrice,
         onClick={() => setShowExpandableSection(!showExpandableSection)}
         expanded={showExpandableSection}
       />
+    
       <ExpandingWrapper expanded={showExpandableSection}>
         <DetailsSection
           removed={removed}

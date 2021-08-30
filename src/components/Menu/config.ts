@@ -51,6 +51,11 @@ const config: MenuEntry[] = [
     href: 'https://bridge.harmony.one/erc20',
   },
   {
+    label: 'VFAT',
+    icon: 'BondsIcon',
+    href: 'https://vfat.tools/harmony/',
+  },
+  {
     label: 'Info',
     icon: 'InfoIcon',
     items: [
