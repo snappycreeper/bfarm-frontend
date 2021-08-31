@@ -55,7 +55,7 @@ const CakeStats = () => {
           <CardValue fontSize="14px" value={getBalanceNumber(marketCap)} decimals={0} prefix="$" />
         </Row>
         <Row>
-          <Text fontSize="14px">{TranslateString(536, 'Total Mined')}</Text>
+          <Text fontSize="14px">{TranslateString(536, 'Total Minted')}</Text>
           {totalSupply && <CardValue fontSize="14px" value={getBalanceNumber(totalSupply)} decimals={0} />}
         </Row>
         <Row>
@@ -80,11 +80,11 @@ const CakeStats = () => {
         </Row>
         <Row>
           <Text fontSize="14px">{TranslateString(541, 'Masterchef:')}</Text>
-          <Text bold fontSize="14px">{masterchef}</Text>
+          <Text bold fontSize="12px">{masterchef}</Text>
         </Row>
         <Row>
           <Text fontSize="14px">{TranslateString(541, 'Token:')}</Text>
-          <Text bold fontSize="14px">{cakeaddy}</Text>
+          <Text bold fontSize="12px">{cakeaddy}</Text>
         </Row>
       </CardBody>
     </StyledCakeStats>

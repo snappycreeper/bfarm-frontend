@@ -66,7 +66,8 @@ const Home: React.FC = () => {
         <Heading 
         bold as="h1" 
         size="xxl" 
-        mb="10px" 
+        mb="20px" 
+        mt="20px"
         color="white">
           {TranslateString(505, 'The Valleys')}
         </Heading>

@@ -24,11 +24,11 @@ const StyledFarmStakingCard = styled(Card)`
 `
 
 const Block = styled.div`
-  margin-bottom: 16px;
+  margin-bottom: 25px;
 `
 
 const CardImage = styled.img`
-  margin-bottom: 1px;
+  margin-bottom: 2px;
 `
 
 const Label = styled.div`
@@ -37,7 +37,7 @@ const Label = styled.div`
 `
 
 const Actions = styled.div`
-  margin-top: 24px;
+  margin-top: 50px;
 `
 
 const FarmedStakingCard = () => {
@@ -70,17 +70,17 @@ const FarmedStakingCard = () => {
     <StyledFarmStakingCard>
       <CardBody>
        
-        <Heading size="xl" mb="10px" color="green">
-          {TranslateString(5490, 'Mining & Hunting')}
+        <Heading size="xl" mb="10px">
+          {TranslateString(5490, 'Farming & Hunting')}
         </Heading>
-        <CardImage src="/images/egg/test.png" alt="Logo" width={80} height={80} />
+        
         <Block>
-          <Label>{TranslateString(503, 'Amethyst to claim')}</Label>
+          <Label >{TranslateString(503, 'Amethyst to collect')} </Label>
           <CakeHarvestBalance earningsSum={earningsSum}/>
           <Label>~${(eggPrice * earningsSum).toFixed(2)}</Label>
         </Block>
         <Block>
-          <Label>{TranslateString(501, 'Amethyst in your wallet')}</Label>
+          <Label >{TranslateString(501, 'Amethyst in your wallet')}</Label>
           <CakeWalletBalance cakeBalance={cakeBalance}/>
           <Label>~${(eggPrice * cakeBalance).toFixed(2)}</Label>
         </Block>

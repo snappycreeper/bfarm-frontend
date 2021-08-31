@@ -20,6 +20,8 @@ const config: MenuEntry[] = [
       },
     ],
   },
+
+  
   {
     label: 'The Valleys',
     icon: 'FarmIcon',
@@ -45,8 +47,6 @@ const config: MenuEntry[] = [
     href: '/pools',
   },
 
-
-  // {
   //   label: 'Pools',
   //   icon: 'PoolIcon',
   //   href: '/pools',
@@ -56,16 +56,22 @@ const config: MenuEntry[] = [
   icon: 'TicketIcon',
   href: '/lottery',
 }, */
-  {
-  label: 'BabyHeroes (NFTs)',
-  icon: 'NftIcon',
-  href: 'https://www.babyjewel.xyz/nfts',
-  },
 
+  {
+       label: 'Bridge',
+       icon: 'LayerIcon',
+       href: 'https://bridge.harmony.one/',
+  },
   {
     label: 'VFAT',
     icon: 'BondsIcon',
     href: 'https://vfat.tools/harmony/',
+  },
+
+    {
+  label: 'BabyHeroes (NFTs)',
+  icon: 'NftIcon',
+  href: 'https://www.babyjewel.xyz/nfts',
   },
   {
     label: 'Charts',
