@@ -25,22 +25,20 @@ const config: MenuEntry[] = [
     icon: 'FarmIcon',
     href: '/farms',
   },
-
-    {
+    /* {
     label: 'Bridged Pools',
     icon: 'LayerIcon',
     items: [
       {
         label: 'Pools',
-        href: '',
+        href: '/BridgeFarms',
       },
      {
         label: 'Bridge Assets',
         href: 'https://bridge.harmony.one/',
       },
     ],
-  },
-    
+  }, */    
   {
     label: 'Gem Hunting',
     icon: 'PoolIcon',
@@ -53,11 +51,11 @@ const config: MenuEntry[] = [
   //   icon: 'PoolIcon',
   //   href: '/pools',
   // },
-{
+/* {
   label: 'Lottery',
   icon: 'TicketIcon',
   href: '/lottery',
-},
+}, */
   {
   label: 'BabyHeroes (NFTs)',
   icon: 'NftIcon',
