@@ -70,7 +70,7 @@ const FarmedStakingCard = () => {
     <StyledFarmStakingCard>
       <CardBody>
        
-        <Heading size="xl" mb="10px">
+        <Heading size="xl" mb="20px">
           {TranslateString(5490, 'Farming & Hunting')}
         </Heading>
         

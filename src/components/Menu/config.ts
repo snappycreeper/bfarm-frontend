@@ -71,8 +71,13 @@ const config: MenuEntry[] = [
     {
   label: 'BabyHeroes (NFTs)',
   icon: 'NftIcon',
-  href: 'https://www.babyjewel.xyz/nfts',
+  href: '',
   },
+  {
+    label: 'Tavern (Lottery)',
+    icon: 'TicketIcon',
+    href: '',
+    },
   {
     label: 'Charts',
     icon: 'InfoIcon',
@@ -82,7 +87,7 @@ const config: MenuEntry[] = [
         href: 'https://info.defikingdoms.com/',
       },
      {
-        label: 'CoinGecko (Applied)',
+        label: 'CoinGecko (To Apply)',
         href: '',
       },
     ],
