@@ -1830,7 +1830,7 @@
 
 "@pancakeswap-libs/uikit@https://github.com/snappycreeper/bfarm-uikit-master.git":
   version "0.10.2"
-  resolved "https://github.com/snappycreeper/bfarm-uikit-master.git#e34691c1367c63995f4ed1a4c77a4bddc001f3c0"
+  resolved "https://github.com/snappycreeper/bfarm-uikit-master.git#18d8a9976d47ac286247a37ca67f40ea9346c559"
   dependencies:
     "@types/lodash" "^4.14.162"
     "@types/styled-system" "^5.1.10"

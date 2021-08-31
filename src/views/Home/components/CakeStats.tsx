@@ -5,7 +5,7 @@ import styled from 'styled-components'
 import { getBalanceNumber } from 'utils/formatBalance'
 import { useTotalSupply, useBurnedBalance } from 'hooks/useTokenBalance'
 import useI18n from 'hooks/useI18n'
-import { getCakeAddress } from 'utils/addressHelpers'
+import { getCakeAddress, getMasterChefAddress } from 'utils/addressHelpers'
 import CardValue from './CardValue'
 import { useFarms, usePriceCakeBusd } from '../../../state/hooks'
 
@@ -31,7 +31,9 @@ const CakeStats = () => {
   const circSupply = totalSupply ? totalSupply.minus(burnedBalance) : new BigNumber(0);
   const cakeSupply = getBalanceNumber(circSupply);
   const marketCap = eggPrice.times(circSupply);
-  const transferTax = '1%';
+  const transferTax = '1%'; 
+  const masterchef = getMasterChefAddress();
+  const cakeaddy = getCakeAddress();
 
   let eggPerBlock = 1;
   if(farms && farms[0] && farms[0].eggPerBlock){
@@ -77,12 +79,12 @@ const CakeStats = () => {
           <Text bold fontSize="14px">{}</Text>
         </Row>
         <Row>
-          <Text bold fontSize="14px">{TranslateString(541, 'Masterchef:')}</Text>
-          <Text fontSize="14px">{TranslateString(541, 'TBA')}</Text>
+          <Text fontSize="14px">{TranslateString(541, 'Masterchef:')}</Text>
+          <Text bold fontSize="14px">{masterchef}</Text>
         </Row>
         <Row>
-          <Text bold fontSize="14px">{TranslateString(541, 'Token:')}</Text>
-          <Text fontSize="14px">{TranslateString(541, 'TBA')}</Text>
+          <Text fontSize="14px">{TranslateString(541, 'Token:')}</Text>
+          <Text bold fontSize="14px">{cakeaddy}</Text>
         </Row>
       </CardBody>
     </StyledCakeStats>
