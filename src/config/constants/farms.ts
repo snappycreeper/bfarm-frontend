@@ -98,19 +98,19 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
   },
-  /* {
+  {
     pid: 3,
     risk: 1,
     isTokenOnly: true,
-    lpSymbol: 'RAIN',
+    lpSymbol: 'AMETHYST',
     lpAddresses: {
       97: '',
-      1666600000: '0xc22dc9f3c00319d457a5ce31f6629a1b18df2218',
+      1666600000: '0x7d5ac6ca0c402efc36e174ab53226b3051ed10ce',
     },
-    tokenSymbol: 'RAIN',
+    tokenSymbol: 'AMETHYST',
     tokenAddresses: {
       97: '',
-      1666600000: '0xd009b07B4a65CC769379875Edc279961D710362d',
+      1666600000: '0x6546d3fC7Cde8c2956355B3ddfD80E7CE0116117',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
