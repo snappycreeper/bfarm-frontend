@@ -32,10 +32,10 @@ const CardHeading: React.FC<ExpandableSectionProps> = ({
   depositFee,
 }) => {
   return (
-    <Wrapper justifyContent="space-between" alignItems="center" mb="15px">
+    <Wrapper justifyContent="space-between" alignItems="center" mb="25px">
       <Image src={`/images/farms/${farmImage}.png`} alt={tokenSymbol} width={64} height={64} />
       <Flex flexDirection="column" alignItems="flex-end">
-        <Heading mb="7px" mt="10px">{lpLabel}</Heading>
+        <Heading mb="10px" mt="10px">{lpLabel}</Heading>
         <Flex justifyContent="center">
           {depositFee === 0 ? <NoFeeTag /> : null}
           {/* {isCommunityFarm ? <CommunityTag /> : <CoreTag />} */}
