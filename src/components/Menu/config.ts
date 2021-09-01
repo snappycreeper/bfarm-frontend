@@ -68,15 +68,21 @@ const config: MenuEntry[] = [
     href: 'https://vfat.tools/harmony/',
   },
 
+  {
+    label: 'Vaults',
+    icon: 'VaultsIcon',
+    href: '/vaults',
+  },
+
     {
   label: 'BabyHeroes (NFTs)',
   icon: 'NftIcon',
-  href: '',
+  href: '/nft',
   },
   {
     label: 'Tavern (Lottery)',
     icon: 'TicketIcon',
-    href: '',
+    href: '/lottery',
     },
   {
     label: 'Charts',
@@ -102,10 +108,6 @@ const config: MenuEntry[] = [
       },
       {
         label: 'Github',
-        href: '',
-      },
-      {
-        label: 'Audits (Soon)',
         href: '',
       },
       {
