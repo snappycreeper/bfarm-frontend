@@ -84,6 +84,13 @@ const config: MenuEntry[] = [
     icon: 'TicketIcon',
     href: '/lottery',
     },
+
+    {
+      label: 'Request a Farm',
+      icon: 'HandshakeIcon',
+      href: 'https://forms.gle/5p6W2y9xD2ga1SjX7',
+      },
+
   {
     label: 'Charts',
     icon: 'InfoIcon',
