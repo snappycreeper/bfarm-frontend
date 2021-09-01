@@ -8,12 +8,12 @@ const farms: FarmConfig[] = [
     lpSymbol: 'AMETHYST-ONE',
     lpAddresses: {
       97: '',
-      1666600000: '0x3cc8ac20212fae54390271d0c59ac9c6411d7e4c',
+      1666600000: '0xe3a4a47de0fee818b535bc27a31e62f859f88e4d',
     },
     tokenSymbol: 'AMETHYST',
     tokenAddresses: {
       97: '',
-      1666600000: '0x6546d3fC7Cde8c2956355B3ddfD80E7CE0116117',
+      1666600000: '0x9467A0958c36b0A92B0F9683e65E3223e7428DF9',
     },
     quoteTokenSymbol: QuoteToken.WONE,
     quoteTokenAdresses: contracts.wbnb,
@@ -24,12 +24,12 @@ const farms: FarmConfig[] = [
     lpSymbol: 'AMETHYST-BUSD',
     lpAddresses: {
       97: '',
-      1666600000: '0x7d5ac6ca0c402efc36e174ab53226b3051ed10ce',
+      1666600000: '0x3083d520e012bb9a410cd2bb53c343b4ae530621',
     },
     tokenSymbol: 'AMETHYST',
     tokenAddresses: {
       97: '',
-      1666600000: '0x6546d3fC7Cde8c2956355B3ddfD80E7CE0116117',
+      1666600000: '0x9467A0958c36b0A92B0F9683e65E3223e7428DF9',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
@@ -105,12 +105,12 @@ const farms: FarmConfig[] = [
     lpSymbol: 'AMETHYST',
     lpAddresses: {
       97: '',
-      1666600000: '0x7d5ac6ca0c402efc36e174ab53226b3051ed10ce',
+      1666600000: '0x3083d520e012bb9a410cd2bb53c343b4ae530621',
     },
     tokenSymbol: 'AMETHYST',
     tokenAddresses: {
       97: '',
-      1666600000: '0x6546d3fC7Cde8c2956355B3ddfD80E7CE0116117',
+      1666600000: '0x9467A0958c36b0A92B0F9683e65E3223e7428DF9',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,

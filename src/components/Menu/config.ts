@@ -77,7 +77,7 @@ const config: MenuEntry[] = [
     {
   label: 'BabyHeroes (NFTs)',
   icon: 'NftIcon',
-  href: '/nft',
+  href: 'https://www.babyjewel.xyz/nfts',
   },
   {
     label: 'Tavern (Lottery)',
