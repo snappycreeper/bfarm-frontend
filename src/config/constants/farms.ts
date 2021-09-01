@@ -99,13 +99,13 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.busd,
   },
   {
-    pid: 3,
+    pid: 4,
     risk: 1,
     isTokenOnly: true,
     lpSymbol: 'AMETHYST',
     lpAddresses: {
       97: '',
-      1666600000: '0x3083d520e012bb9a410cd2bb53c343b4ae530621',
+      1666600000: '0xe3a4a47de0fee818b535bc27a31e62f859f88e4d',
     },
     tokenSymbol: 'AMETHYST',
     tokenAddresses: {
