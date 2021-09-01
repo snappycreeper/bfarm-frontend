@@ -93,7 +93,7 @@ const FarmedStakingCard = () => {
               fullWidth
             >
               {pendingTx
-                ? TranslateString(548, 'Collecting Amethyst')
+                ? TranslateString(579, 'Collecting Amethyst')
                 : TranslateString(999, `Collect Amethyst (${balancesWithValue.length})`)}
             </Button>
           ) : (
