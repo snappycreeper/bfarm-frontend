@@ -188,7 +188,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'AMETHYST-RAIN',
     lpAddresses: {
       97: '',
-      1666600000: '0x7f91c688f0933c435f3d4d965d17a15f507514e2',
+      1666600000: '0x882cF21E4bf43B6d5658C27e07f5b2873DBE5718',
     },
     tokenSymbol: 'AMETHYST',
     tokenAddresses: {
