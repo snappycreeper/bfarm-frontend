@@ -11,7 +11,7 @@ const config: MenuEntry[] = [
     icon: 'TradeIcon',
     items: [
       {
-        label: 'Minerals Exchange ',
+        label: 'Gems Exchange ',
         href: 'https://game.defikingdoms.com/#/marketplace',
       },
       {
@@ -56,12 +56,21 @@ const config: MenuEntry[] = [
   icon: 'TicketIcon',
   href: '/lottery',
 }, */
+{
+  label: 'Bridges',
+  icon: 'LayerIcon',
+  items: [
+    {
+      label: 'Horizon Bridge',
+      href: 'https://bridge.harmony.one/',
+    },
+   {
+      label: 'Terra Bridge',
+      href: 'https://bridge.terra.money/',
+    },
+  ],
+},
 
-  {
-       label: 'Bridge',
-       icon: 'LayerIcon',
-       href: 'https://bridge.harmony.one/',
-  },
   {
     label: 'VFAT',
     icon: 'BondsIcon',
@@ -109,11 +118,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Docs',
-        href: '',
+        href: 'https://babyjewelone.gitbook.io/the-valleys/',
       },
       {
         label: 'Github',
-        href: '',
+        href: 'https://github.com/',
       },
       {
         label: 'Discord',
