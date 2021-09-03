@@ -74,7 +74,7 @@ const config: MenuEntry[] = [
   {
     label: 'VFAT',
     icon: 'BondsIcon',
-    href: 'https://vfat.tools/harmony/',
+    href: 'https://vfat.tools/harmony/thevalleys/',
   },
 
   {
