@@ -67,9 +67,9 @@ const DetailsSection: React.FC<ExpandableSectionProps> = ({
       <Flex justifyContent="left">
         <StyledLinkExternal href={
           isTokenOnly ?
-            `https://app.defikingdoms.com/#/marketplace${tokenAddresses[process.env.REACT_APP_CHAIN_ID]}`
+            `https://app.defikingdoms.com/#/marketplace/${tokenAddresses[process.env.REACT_APP_CHAIN_ID]}`
             :
-          `https://app.defikingdoms.com/#/add${liquidityUrlPathParts}`
+          `https://app.defikingdoms.com/#/add/${liquidityUrlPathParts}`
         }>
           {lpLabel}
         </StyledLinkExternal>
