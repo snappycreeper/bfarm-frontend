@@ -94,7 +94,7 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
       <Heading as="h1" size="xl" color="white" mb="20px" style={{ textAlign: 'center' }}>
         {
           tokenMode ?
-            TranslateString(10345, 'ssssss')
+            TranslateString(10345, '')
             :
           TranslateString(321, '')
         }
