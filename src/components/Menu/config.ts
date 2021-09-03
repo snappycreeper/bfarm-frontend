@@ -104,7 +104,7 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Chart',
-        href: 'https://info.defikingdoms.com/',
+        href: 'https://info.defikingdoms.com/token/0x7bf379fcb16b4a6f648371cd72d9d443ef24168f',
       },
      {
         label: 'CoinGecko (To Apply)',
