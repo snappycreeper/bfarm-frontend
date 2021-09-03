@@ -12,7 +12,7 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Gems Exchange ',
-        href: 'https://game.defikingdoms.com/#/marketplace',
+        href: 'https://game.defikingdoms.com/#/marketplace?outputCurrency=0x7BF379FcB16b4a6F648371cD72D9D443EF24168F',
       },
       {
         label: 'Manage Liquidity',
