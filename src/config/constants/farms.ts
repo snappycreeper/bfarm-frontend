@@ -139,15 +139,15 @@ const farms: FarmConfig[] = [
     lpSymbol: 'JEWEL',
     lpAddresses: {
       97: '',
-      1666600000: '0x72cb10c6bfa5624dd07ef608027e366bd690048f',
+      1666600000: '0xeb579ddcd49a7beb3f205c9ff6006bb6390f138f',
     },
     tokenSymbol: 'JEWEL',
     tokenAddresses: {
       97: '',
       1666600000: '0x72cb10c6bfa5624dd07ef608027e366bd690048f',
     },
-    quoteTokenSymbol: QuoteToken.BUSD,
-    quoteTokenAdresses: contracts.busd,
+    quoteTokenSymbol: QuoteToken.WONE,
+    quoteTokenAdresses: contracts.wbnb,
   },
   {
     pid: 6,
@@ -156,15 +156,15 @@ const farms: FarmConfig[] = [
     lpSymbol: 'XYA',
     lpAddresses: {
       97: '',
-      1666600000: '0x9b68BF4bF89c115c721105eaf6BD5164aFcc51E4',
+      1666600000: '0xc74eaf04777f784a7854e8950daeb27559111b85',
     },
     tokenSymbol: 'XYA',
     tokenAddresses: {
       97: '',
       1666600000: '0x9b68BF4bF89c115c721105eaf6BD5164aFcc51E4',
     },
-    quoteTokenSymbol: QuoteToken.BUSD,
-    quoteTokenAdresses: contracts.busd,
+    quoteTokenSymbol: QuoteToken.WONE,
+    quoteTokenAdresses: contracts.wbnb,
   },
   {
     pid: 7,
@@ -357,6 +357,54 @@ const farms: FarmConfig[] = [
     },
     quoteTokenSymbol: QuoteToken.UST,
     quoteTokenAdresses: contracts.ust,
+  },
+  {
+    pid: 19,
+    risk: 5,
+    lpSymbol: 'BUSD-1ETH',
+    lpAddresses: {
+      97: '',
+      1666600000: '0xf70ad6be6cde07960bb05f01fc84e43d04b6e3c2',
+    },
+    tokenSymbol: 'BUSD',
+    tokenAddresses: {
+      97: '',
+      1666600000: '0xe176ebe47d621b984a73036b9da5d834411ef734',
+    },
+    quoteTokenSymbol: QuoteToken.ONEETH,
+    quoteTokenAdresses: contracts.oneeth,
+  },
+  {
+    pid: 20,
+    risk: 5,
+    lpSymbol: 'AMETHYST-VIPER',
+    lpAddresses: {
+      97: '',
+      1666600000: '0xb8464ddef7701a8d64c8054dc87ad428dc604ab5',
+    },
+    tokenSymbol: 'AMETHYST',
+    tokenAddresses: {
+      97: '',
+      1666600000: '0x7BF379FcB16b4a6F648371cD72D9D443EF24168F',
+    },
+    quoteTokenSymbol: QuoteToken.VIPER,
+    quoteTokenAdresses: contracts.viper,
+  },
+  {
+    pid: 21,
+    risk: 5,
+    lpSymbol: '1AXS-WONE',
+    lpAddresses: {
+      97: '',
+      1666600000: '0xd147ac7ccedca0f6f34238d4b3d0cb737ac0cfb2',
+    },
+    tokenSymbol: '1AXS',
+    tokenAddresses: {
+      97: '',
+      1666600000: '0x14a7b318fed66ffdcc80c1517c172c13852865de',
+    },
+    quoteTokenSymbol: QuoteToken.WONE,
+    quoteTokenAdresses: contracts.wbnb,
   },
   /* {
     pid: 4,
