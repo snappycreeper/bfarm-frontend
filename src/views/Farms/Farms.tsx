@@ -94,13 +94,13 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
       <Heading as="h1" size="xl" color="white" mb="20px" style={{ textAlign: 'center' }}>
         {
           tokenMode ?
-            TranslateString(10345, '')
+            TranslateString(10345, 'ssssss')
             :
           TranslateString(321, '')
         }
       </Heading>
-      <Heading as="h2" color="white" mb="50px" style={{ textAlign: 'center' }}>
-        {TranslateString(10070, '')}
+      <Heading as="h1" color="white" mb="40px" mt="10px" style={{ textAlign: 'center' }}>
+        {TranslateString(10070, 'Make sure to track the actual APRs on VFAT')}
       </Heading>
       <FarmTabButtons stakedOnly={stakedOnly} setStakedOnly={setStakedOnly}/>
       <div>
