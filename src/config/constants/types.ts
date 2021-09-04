@@ -40,6 +40,7 @@ export enum QuoteToken {
   'ONEETH' = 'ONEETH',
   'LUNA' = 'LUNA',
   'ONEFTM' = 'ONEFTM',
+  'FOX' = 'FOX',
 }
 
 export enum PoolCategory {

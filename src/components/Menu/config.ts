@@ -46,11 +46,11 @@ const config: MenuEntry[] = [
     icon: 'PoolIcon',
     href: '/pools',
   },
-
-  //   label: 'Pools',
-  //   icon: 'PoolIcon',
-  //   href: '/pools',
-  // },
+  /* {
+  label: 'Garden',
+  icon: 'PoolIcon',
+  href: '/garden',
+  }, */
 /* {
   label: 'Lottery',
   icon: 'TicketIcon',

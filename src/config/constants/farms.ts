@@ -167,20 +167,36 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.wbnb,
   },
   {
-    pid: 7,
+    pid: 22,
     risk: 5,
-    lpSymbol: 'AMETHYST-JEWEL',
+    lpSymbol: 'BJEWEL-FOX',
     lpAddresses: {
       97: '',
-      1666600000: '0x7f91c688f0933c435f3d4d965d17a15f507514e2',
+      1666600000: '0x428b176b0573e37119f4d209b0bb20f93879c2de',
+    },
+    tokenSymbol: 'BJEWEL',
+    tokenAddresses: {
+      97: '',
+      1666600000: '0x70831ee5f8a0434bd2ddb1e45ed24cbca8b41fec',
+    },
+    quoteTokenSymbol: QuoteToken.FOX,
+    quoteTokenAdresses: contracts.fox,
+  },
+  {
+    pid: 23,
+    risk: 5,
+    lpSymbol: 'AMETHYST-FOX',
+    lpAddresses: {
+      97: '',
+      1666600000: '0x0597d7c76cd2b788b15447c56e1042e3b5f15832',
     },
     tokenSymbol: 'AMETHYST',
     tokenAddresses: {
       97: '',
       1666600000: '0x7BF379FcB16b4a6F648371cD72D9D443EF24168F',
     },
-    quoteTokenSymbol: QuoteToken.JEWEL,
-    quoteTokenAdresses: contracts.jewel,
+    quoteTokenSymbol: QuoteToken.FOX,
+    quoteTokenAdresses: contracts.fox,
   },
   {
     pid: 8,
@@ -198,6 +214,38 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.RAIN,
     quoteTokenAdresses: contracts.rain,
   },
+  {
+    pid: 7,
+    risk: 5,
+    lpSymbol: 'AMETHYST-JEWEL',
+    lpAddresses: {
+      97: '',
+      1666600000: '0x7f91c688f0933c435f3d4d965d17a15f507514e2',
+    },
+    tokenSymbol: 'AMETHYST',
+    tokenAddresses: {
+      97: '',
+      1666600000: '0x7BF379FcB16b4a6F648371cD72D9D443EF24168F',
+    },
+    quoteTokenSymbol: QuoteToken.JEWEL,
+    quoteTokenAdresses: contracts.jewel,
+  },
+  /* {
+    pid: 8,
+    risk: 5,
+    lpSymbol: 'AMETHYST-RAIN',
+    lpAddresses: {
+      97: '',
+      1666600000: '0x882cF21E4bf43B6d5658C27e07f5b2873DBE5718',
+    },
+    tokenSymbol: 'AMETHYST',
+    tokenAddresses: {
+      97: '',
+      1666600000: '0x7BF379FcB16b4a6F648371cD72D9D443EF24168F',
+    },
+    quoteTokenSymbol: QuoteToken.RAIN,
+    quoteTokenAdresses: contracts.rain,
+  }, */
   {
     pid: 9,
     risk: 5,
@@ -405,6 +453,38 @@ const farms: FarmConfig[] = [
     },
     quoteTokenSymbol: QuoteToken.WONE,
     quoteTokenAdresses: contracts.wbnb,
+  },
+  /* {
+    pid: 22,
+    risk: 5,
+    lpSymbol: 'BJEWEL-FOX',
+    lpAddresses: {
+      97: '',
+      1666600000: '0x428b176b0573e37119f4d209b0bb20f93879c2de',
+    },
+    tokenSymbol: 'BJEWEL',
+    tokenAddresses: {
+      97: '',
+      1666600000: '0x70831ee5f8a0434bd2ddb1e45ed24cbca8b41fec',
+    },
+    quoteTokenSymbol: QuoteToken.FOX,
+    quoteTokenAdresses: contracts.fox,
+  },
+  {
+    pid: 23,
+    risk: 5,
+    lpSymbol: 'AMETHYST-FOX',
+    lpAddresses: {
+      97: '',
+      1666600000: '0x0597d7c76cd2b788b15447c56e1042e3b5f15832',
+    },
+    tokenSymbol: 'AMETHYST',
+    tokenAddresses: {
+      97: '',
+      1666600000: '0x7BF379FcB16b4a6F648371cD72D9D443EF24168F',
+    },
+    quoteTokenSymbol: QuoteToken.FOX,
+    quoteTokenAdresses: contracts.fox,
   },
   /* {
     pid: 4,

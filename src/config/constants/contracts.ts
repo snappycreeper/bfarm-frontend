@@ -89,4 +89,9 @@ export default {
     1666600000: '0x224e64ec1bdce3870a6a6c777edd450454068fec',
     97: '',
   },
+  fox: {
+    // this is FOX "0x139c70f74613e229b1aab2c39df8f73d54df5c80"
+    1666600000: '0x139c70f74613e229b1aab2c39df8f73d54df5c80',
+    97: '',
+  },
 }
