@@ -17,7 +17,7 @@ const Blurb = styled(Text)`
 
 const StyledHero = styled.div`
   background-image: linear-gradient(180deg, #1C9309 0%, #33B91D 100%);
-  padding-bottom: 30px;
+  padding-bottom: 40px;
   padding-top: 40px;
 `
 
@@ -45,7 +45,7 @@ const RightWrapper = styled.div`
   align-items: center;
   justify-content: center;
   flex: 1;
-  padding-left: 0;
+  padding-left: 10;
   margin-top: 16px;
   ${({ theme }) => theme.mediaQueries.sm} {
     margin-top: 0;
@@ -64,8 +64,8 @@ const Hero = () => {
       <StyledContainer>
         <LeftWrapper>
           <Title>{TranslateString(999, '')}</Title>
-          <Blurb>{TranslateString(999, 'Bet on a number with BABYJEWEL')}</Blurb>
-          <Blurb>{TranslateString(999, 'Win up to 50x your bet!')}</Blurb>
+          <Blurb>{TranslateString(999, 'Bet on a number with BabyJewel and win up to 50x your bet!')}</Blurb>
+          <Blurb>{TranslateString(999, '')}</Blurb>
         </LeftWrapper>
       </StyledContainer>
     </StyledHero>
