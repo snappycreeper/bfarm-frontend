@@ -116,11 +116,11 @@ const config: MenuEntry[] = [
 }, */
 
 
-  /* {
+{
     label: 'Vaults',
-    icon: 'VaultsIcon',
+    icon: 'BondsIcon',
     href: '/vaults',
-  }, */
+  },
 
 
   /* {
