@@ -33,6 +33,10 @@ const config: MenuEntry[] = [
         label: 'Gem Hunting',
         href: '/pools',
       },
+      {
+        label: 'VFAT',
+        href: 'https://vfat.tools/harmony/thevalleys/',
+      },
     ],
   },
 
@@ -81,7 +85,7 @@ const config: MenuEntry[] = [
     ],
   },
   {
-    label: 'Bridges',
+    label: 'Bridge Assets',
     icon: 'LayerIcon',
     items: [
       {
@@ -111,12 +115,6 @@ const config: MenuEntry[] = [
   href: '/lottery',
 }, */
 
-
-  {
-    label: 'VFAT',
-    icon: 'BondsIcon',
-    href: 'https://vfat.tools/harmony/thevalleys/',
-  },
 
   /* {
     label: 'Vaults',
