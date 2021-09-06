@@ -5,13 +5,13 @@ import useI18n from 'hooks/useI18n'
 import Container from 'components/layout/Container'
 
 const Title = styled(Heading).attrs({ as: 'h1', size: 'xl' })`#
-  color="black"
+  color="white"
   margin-bottom: 24px;
 `
 
 const Blurb = styled(Text)`
   color: #ffffff;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 600;
 `
 
@@ -65,7 +65,7 @@ const Hero = () => {
         <LeftWrapper>
           <Title>{TranslateString(999, '')}</Title>
           <Blurb>{TranslateString(999, 'Bet on a number with BabyJewel and win up to 50x your bet!')}</Blurb>
-          <Blurb>{TranslateString(999, '')}</Blurb>
+          <Blurb>{TranslateString(999, 'You can bet on multiple numbers at the same time')}</Blurb>
         </LeftWrapper>
       </StyledContainer>
     </StyledHero>
