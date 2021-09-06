@@ -21,7 +21,22 @@ const config: MenuEntry[] = [
     ],
   },
 
-  
+  {
+    label: 'Earn',
+    icon: 'FarmIcon',
+    items: [
+      {
+        label: 'The Valleys',
+        href: '/farms',
+      },
+     {
+        label: 'Gem Hunting',
+        href: '/pools',
+      },
+    ],
+  },
+
+/*
   {
     label: 'The Valleys',
     icon: 'FarmIcon',
@@ -40,13 +55,13 @@ const config: MenuEntry[] = [
         href: 'https://bridge.harmony.one/',
       },
     ],
-  }, */    
+  },     
   {
     label: 'Gem Hunting',
     icon: 'PoolIcon',
     href: '/pools',
   },
-
+*/
   {
     label: 'Casino',
     icon: 'TicketIcon',
@@ -61,7 +76,20 @@ const config: MenuEntry[] = [
       },
     ],
   },
-
+  {
+    label: 'Bridges',
+    icon: 'LayerIcon',
+    items: [
+      {
+        label: 'Horizon Bridge',
+        href: 'https://bridge.harmony.one/',
+      },
+     {
+        label: 'Terra Bridge',
+        href: 'https://bridge.terra.money/',
+      },
+    ],
+  },
   {
     label: 'BabyHeroes (NFTs)',
     icon: 'NftIcon',
@@ -78,20 +106,7 @@ const config: MenuEntry[] = [
   icon: 'TicketIcon',
   href: '/lottery',
 }, */
-{
-  label: 'Bridges',
-  icon: 'LayerIcon',
-  items: [
-    {
-      label: 'Horizon Bridge',
-      href: 'https://bridge.harmony.one/',
-    },
-   {
-      label: 'Terra Bridge',
-      href: 'https://bridge.terra.money/',
-    },
-  ],
-},
+
 
   {
     label: 'VFAT',
