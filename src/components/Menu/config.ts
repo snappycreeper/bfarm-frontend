@@ -70,8 +70,12 @@ const config: MenuEntry[] = [
         label: 'BabyJewel Wheel',
         href: '/wheel',
       },
+      {
+        label: 'Jewel Wheel (Soon)',
+        href: '/wheel2',
+      },
      {
-        label: 'Lottery',
+        label: 'Lottery (Soon)',
         href: '/lottery',
       },
     ],
