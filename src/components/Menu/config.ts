@@ -46,6 +46,11 @@ const config: MenuEntry[] = [
     icon: 'PoolIcon',
     href: '/pools',
   },
+  {
+    label: 'Wheel',
+    icon: 'VaultsIcon',
+    href: '/wheel',
+  },
   /* {
   label: 'Garden',
   icon: 'PoolIcon',
@@ -77,11 +82,11 @@ const config: MenuEntry[] = [
     href: 'https://vfat.tools/harmony/thevalleys/',
   },
 
-  {
+  /* {
     label: 'Vaults',
     icon: 'VaultsIcon',
     href: '/vaults',
-  },
+  }, */
 
     {
   label: 'BabyHeroes (NFTs)',
