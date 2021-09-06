@@ -25,7 +25,7 @@ interface BetInputProps extends InputProps {
 const BetInput: React.FC<BetInputProps> = ({ max, symbol, onChange, onSelectMax, value, name, depositFeeBP = 0, betNumber}) => {
     return (
         <FlexShow>
-            <Heading as="h2" size="xl" color="secondary" mb="24px" style={{ textAlign: 'center' }}>
+            <Heading as="h2" size="xl" color="white" mb="24px" style={{ textAlign: 'center' }}>
                 {betNumber}
             </Heading>
             <TokenInput

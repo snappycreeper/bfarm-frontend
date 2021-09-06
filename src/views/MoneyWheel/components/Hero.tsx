@@ -4,8 +4,8 @@ import { Heading, Text } from '@pancakeswap-libs/uikit'
 import useI18n from 'hooks/useI18n'
 import Container from 'components/layout/Container'
 
-const Title = styled(Heading).attrs({ as: 'h1', size: 'xl' })`
-  color: ${({ theme }) => theme.colors.secondary};
+const Title = styled(Heading).attrs({ as: 'h1', size: 'xl' })`#
+  color="black"
   margin-bottom: 24px;
 `
 
@@ -16,8 +16,8 @@ const Blurb = styled(Text)`
 `
 
 const StyledHero = styled.div`
-  background-image: linear-gradient(180deg, #7c12a6 0%, #9A6AFF 100%);
-  padding-bottom: 40px;
+  background-image: linear-gradient(180deg, #1C9309 0%, #33B91D 100%);
+  padding-bottom: 30px;
   padding-top: 40px;
 `
 
@@ -63,7 +63,7 @@ const Hero = () => {
     <StyledHero>
       <StyledContainer>
         <LeftWrapper>
-          <Title>{TranslateString(999, 'The BABYJEWEL Wheel')}</Title>
+          <Title>{TranslateString(999, '')}</Title>
           <Blurb>{TranslateString(999, 'Bet on a number with BABYJEWEL')}</Blurb>
           <Blurb>{TranslateString(999, 'Win up to 50x your bet!')}</Blurb>
         </LeftWrapper>

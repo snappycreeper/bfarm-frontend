@@ -79,8 +79,8 @@ const Left = styled.div`
 const IconWrapper = styled.div`
   margin-right: 16px;
   svg {
-    width: 48px;
-    height: 48px;
+    width: 0px;
+    height: 0px;
   }
 `
 
@@ -116,9 +116,9 @@ const WheelCard: React.FC<WheelCardProps> = ({prizeNumber, mustSpin, onStopping}
           mustStartSpinning={mustSpin}
           prizeNumber={prizeNumber}
           data={wheelOptions}
-          backgroundColors={['#3e3e3e', '#32B50B']}
+          backgroundColors={['#34E100', '#2DC000']}
           textColors={['#ffffff']}
-          innerRadius={25}
+          innerRadius={20}
           radiusLineWidth={1}
           perpendicularText={onPerpendicularText}
           textDistance={80}

@@ -49,8 +49,8 @@ const BetCard: React.FC<BetCardProps> = ({max, tokenName = '', onResult}) => {
 
     return (
         <div>
-            <Heading as="h1" size="lg" color="secondary" mb="50px" style={{ textAlign: 'center' }}>
-                {TranslateString(999, 'The BJEWEL cant be refunded!')}
+            <Heading as="h1" size="lg" color="white" mb="50px" mt="50px" style={{ textAlign: 'center' }}>
+                {TranslateString(999, 'Your BabyJewel cant be refunded!')}
             </Heading>
             <Flex>
                 <BetInput

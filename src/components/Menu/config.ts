@@ -46,11 +46,28 @@ const config: MenuEntry[] = [
     icon: 'PoolIcon',
     href: '/pools',
   },
+
   {
-    label: 'Wheel',
-    icon: 'VaultsIcon',
-    href: '/wheel',
+    label: 'Casino',
+    icon: 'TicketIcon',
+    items: [
+      {
+        label: 'BabyJewel Wheel',
+        href: '/wheel',
+      },
+     {
+        label: 'Lottery',
+        href: '/lottery',
+      },
+    ],
   },
+
+  {
+    label: 'BabyHeroes (NFTs)',
+    icon: 'NftIcon',
+    href: '/nft',
+  },
+
   /* {
   label: 'Garden',
   icon: 'PoolIcon',
@@ -88,11 +105,7 @@ const config: MenuEntry[] = [
     href: '/vaults',
   }, */
 
-    {
-  label: 'BabyHeroes (NFTs)',
-  icon: 'NftIcon',
-  href: '/nft',
-  },
+
   /* {
     label: 'Tavern (Lottery)',
     icon: 'TicketIcon',
