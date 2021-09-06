@@ -30,6 +30,15 @@ export interface MoneyWheelBet {
   val50: string
 }
 
+export interface MoneyWheel2Bet {
+  val1: string
+  val3: string
+  val5: string
+  val10: string
+  val20: string
+  val50: string
+}
+
 // export interface LastMoneyWheelResult {
 
 // }

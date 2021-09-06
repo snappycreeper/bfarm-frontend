@@ -18,6 +18,7 @@ const Lottery = lazy(() => import('./views/Lottery'))
 const NotFound = lazy(() => import('./views/NotFound'))
 // const Nft = lazy(() => import('./views/Nft'))
 const MoneyWheel = lazy(() => import('./views/MoneyWheel'))
+const MoneyWheel2 = lazy(() => import('./views/MoneyWheel2'))
 
 // This config is required for number formating
 BigNumber.config({
@@ -53,6 +54,9 @@ const App: React.FC = () => {
             </Route>
             <Route path="/wheel">
               <MoneyWheel />
+            </Route>
+            <Route path="/wheel2">
+              <MoneyWheel2 />
             </Route>
             {/* <Route path="/garden">
               <Pools />

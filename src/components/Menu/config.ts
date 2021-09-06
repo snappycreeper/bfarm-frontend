@@ -75,7 +75,7 @@ const config: MenuEntry[] = [
         href: '/wheel',
       },
       {
-        label: 'Jewel Wheel (Soon)',
+        label: 'Jewel Wheel',
         href: '/wheel2',
       },
      {

@@ -5,7 +5,7 @@ import { ethers } from 'ethers'
 import { useDispatch } from 'react-redux'
 import { updateUserAllowance, fetchFarmUserDataAsync } from 'state/actions'
 import { approve } from 'utils/callHelpers'
-import { useMasterchef, useCake, useSousChef, useLottery, useMoneyWheel, useBjewel } from './useContract'
+import { useMasterchef, useCake, useSousChef, useLottery, useMoneyWheel, useBjewel, useJewel, useMoneyWheel2 } from './useContract'
 
 // Approve a Farm
 export const useApprove = (lpContract: Contract) => {
@@ -63,7 +63,7 @@ export const useLotteryApprove = () => {
   return { onApprove: handleApprove }
 }
 
-/// Je moet in het token contract het wheel contract toestemming geven om namens jou tokens uit te mogen geven.
+/// Approve the Money Wheel
 export const useMoneyWheelApprove = () => {
   const { account }: { account: string } = useWallet()
   const bjewelContract = useBjewel()
@@ -77,6 +77,24 @@ export const useMoneyWheelApprove = () => {
       return false
     }
   }, [account, bjewelContract, moneyWheelContract])
+
+  return { onApprove: handleApprove }
+}
+
+/// Approve the Money Wheel2
+export const useMoneyWheel2Approve = () => {
+  const { account }: { account: string } = useWallet()
+  const jewelContract = useJewel()
+  const moneyWheel2Contract = useMoneyWheel2()
+
+  const handleApprove = useCallback(async () => {
+    try {
+      const tx = await approve(jewelContract, moneyWheel2Contract, account)
+      return tx
+    } catch (e) {
+      return false
+    }
+  }, [account, jewelContract, moneyWheel2Contract])
 
   return { onApprove: handleApprove }
 }

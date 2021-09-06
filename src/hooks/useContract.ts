@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { AbiItem } from 'web3-utils'
 import { ContractOptions } from 'web3-eth-contract'
 import useWeb3 from 'hooks/useWeb3'
-import { getMasterChefAddress, getCakeAddress, getLotteryAddress, getWheelAddress, getLotteryTicketAddress, getBjewelAddress } from 'utils/addressHelpers'
+import { getMasterChefAddress, getCakeAddress, getLotteryAddress, getWheelAddress, getLotteryTicketAddress, getBjewelAddress, getWheel2Address, getJewelAddress } from 'utils/addressHelpers'
 import { poolsConfig } from 'config/constants'
 import { PoolCategory } from 'config/constants/types'
 import ifo from 'config/abi/ifo.json'
@@ -49,6 +49,10 @@ export const useBjewel = () => {
   return useERC20(getBjewelAddress())
 }
 
+export const useJewel = () => {
+  return useERC20(getJewelAddress())
+}
+
 export const useRabbitMintingFarm = (address: string) => {
   const rabbitMintingFarmAbi = (rabbitmintingfarm as unknown) as AbiItem
   return useContract(rabbitMintingFarmAbi, address)
@@ -67,6 +71,11 @@ export const useLottery = () => {
 export const useMoneyWheel = () => {
   const abi = (wheel as unknown) as AbiItem
   return useContract(abi, getWheelAddress())
+}
+
+export const useMoneyWheel2 = () => {
+  const abi = (wheel as unknown) as AbiItem
+  return useContract(abi, getWheel2Address())
 }
 
 export const useLotteryTicket = () => {
