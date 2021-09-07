@@ -75,8 +75,8 @@ const config: MenuEntry[] = [
         href: '/wheel',
       },
       {
-        label: 'Jewel Wheel',
-        href: '/wheel2',
+        label: 'Jewel Wheel (Disabled)',
+        href: '',
       },
      {
         label: 'Lottery (Soon)',
