@@ -454,7 +454,7 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.WONE,
     quoteTokenAdresses: contracts.wbnb,
   },
-  /* {
+  {
     pid: 22,
     risk: 5,
     lpSymbol: 'BJEWEL-FOX',
@@ -485,6 +485,38 @@ const farms: FarmConfig[] = [
     },
     quoteTokenSymbol: QuoteToken.FOX,
     quoteTokenAdresses: contracts.fox,
+  },
+  {
+    pid: 24,
+    risk: 5,
+    lpSymbol: 'PASTA-ONE',
+    lpAddresses: {
+      97: '',
+      1666600000: '0x7be40c6ba2ff1e254e4277de0178ec80a8b78204',
+    },
+    tokenSymbol: 'PASTA',
+    tokenAddresses: {
+      97: '',
+      1666600000: '0x5903720f0132E8bd48530010d9b3192B25F51D8e',
+    },
+    quoteTokenSymbol: QuoteToken.WONE,
+    quoteTokenAdresses: contracts.wbnb,
+  },
+  {
+    pid: 25,
+    risk: 5,
+    lpSymbol: 'ARB-ONE',
+    lpAddresses: {
+      97: '',
+      1666600000: '0xfb70439e59de599fd766cf5b2b8fe9f64bb843ec',
+    },
+    tokenSymbol: 'ARB',
+    tokenAddresses: {
+      97: '',
+      1666600000: '0x044246137670a03ca790d7ed20af0c552c88117c',
+    },
+    quoteTokenSymbol: QuoteToken.WONE,
+    quoteTokenAdresses: contracts.wbnb,
   },
   /* {
     pid: 4,
